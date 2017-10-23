@@ -1,0 +1,9 @@
+lisbon:
+  name: 'Le Wagon Lisbon'
+  place: 'Torre de Belém'
+paris:
+  name: 'Le Wagon Paris'
+  place: 'Eiffel Tower'
+rio:
+  name: 'Le Wagon Rio'
+  place: 'Cristo Redentor'

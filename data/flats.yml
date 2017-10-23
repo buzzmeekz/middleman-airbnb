@@ -1,0 +1,72 @@
+gddmatos:
+  name: "Guilherme's home"
+  description: "Charming room in Almada"
+  city_name: "Lisbon, Portugal"
+  city_slug: "lisbon"
+  wifi: true
+  kitchen: false
+  TV: true
+  welcome_drink: true
+  pet: true
+  rating: 4
+  summary: "Amazing flat in a perfect location. Walking distance from all tourist attractions. Flat has been recently renovated."
+buzzmeekz:
+  name: "Miguel's home"
+  description: Small flat in Rio
+  city_name: "Rio de Janeiro, Brazil"
+  city_slug: "rio"
+  wifi: true
+  kitchen: false
+  TV: true
+  welcome_drink: false
+  pet: true
+  rating: 5
+  summary: "Amazing flat in a perfect location. Walking distance from all tourist attractions. Flat has been recently renovated."
+papillard:
+  name: "Boris' home"
+  description: Small flat in Tokyo
+  city_name: "Paris, France"
+  city_slug: "tokyo"
+  wifi: true
+  kitchen: true
+  TV: false
+  welcome_drink: false
+  pet: false
+  rating: 3
+  summary: "Amazing flat in a perfect location. Walking distance from all tourist attractions. Flat has been recently renovated."
+monsieurpaillard:
+  name: Romain's home
+  description: Nice flat in Piccadilly
+  city_name: "London, UK"
+  city_slug: "london"
+  wifi: true
+  kitchen: true
+  TV: true
+  welcome_drink: true
+  pet: true
+  rating: 5
+  summary: "Amazing flat in a perfect location. Walking distance from all tourist attractions. Flat has been recently renovated."
+ssaunier:
+  name: "Sebastien's home"
+  description: "Charming room in Montmartre"
+  city_name: "Paris, France"
+  city_slug: "paris"
+  wifi: false
+  kitchen: true
+  TV: true
+  welcome_drink: false
+  pet: true
+  rating: 4
+  summary: "Amazing flat in a perfect location. Walking distance from all tourist attractions. Flat has been recently renovated."
+M-CE:
+  name: "Mary's home"
+  description: "Charming room in Berlin"
+  city_name: "Berlin, Germany"
+  city_slug: "berlin"
+  wifi: true
+  kitchen: false
+  TV: true
+  welcome_drink: false
+  pet: false
+  rating: 4
+  summary: "Amazing flat in a perfect location. Walking distance from all tourist attractions. Flat has been recently renovated."

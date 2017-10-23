@@ -1,0 +1,32 @@
+* {
+  color: $black;
+}
+
+#flat-header {
+  background-color: #fff;
+}
+
+#flat-description {
+  background-color: #F5F5F5;
+  padding: 30px 0;
+}
+
+h2 {
+  color: $blue;
+}
+
+.banner-style {
+  margin: 0;
+}
+
+.desc, #reservation-form {
+  padding: 30px 0;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+#summary {
+  padding: 30px 95px;
+}

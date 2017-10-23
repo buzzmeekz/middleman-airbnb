@@ -1,0 +1,69 @@
+<% flat = data.flats[owner] %>
+
+<div class="card banner-style" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%), url('https://kitt.lewagon.com/placeholder/cities/<%= flat.city_slug %>');">
+</div>
+
+<!-- Inject flat data in template -->
+<div class="wrapper" id="flat-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-sm-offset-1">
+        <div class="desc">
+          <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{owner}", class: "avatar-xl" %>
+          <h2><%= flat.description %></h2>
+          <p><%= flat.city_name %></p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+         <form action="#" id="reservation-form">
+           <div class="form-group">
+             <input type="text" class="form-control input" placeholder="Checkin">
+           </div>
+           <div class="form-group">
+             <input type="text" class="form-control input" placeholder="Checkout">
+           </div>
+           <div class="form-group">
+             <select class="form-control input">
+              <option value="1">1 guest</option>
+              <option value="2">2 guests</option>
+              <option value="3">3 guests</option>
+            </select>
+          </div>
+          <input type="submit" value="Submit" class="btn btn-primary">
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="wrapper" id="flat-description">
+  <div class="container">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+      <p class="uppercase">About this flat</p>
+      <p><%= flat.summary %></p>
+    </div>
+      <div class="col-xs-12 col-sm-6 col-sm-offset-1">
+        <p class="uppercase">Amenities</p>
+        <ul class="list-inline">
+          <% if flat.wifi %>
+            <li><i class="fa fa-wifi"></i> Wifi</li>
+          <% end %>
+          <% if flat.kitchen %>
+            <li><i class="fa fa-cutlery"></i> Kitchen</li>
+          <% end %>
+          <% if flat.TV %>
+            <li><i class="fa fa-desktop"></i> TV</li>
+          <% end %>
+          <% if flat.welcome_drink %>
+            <li><i class="fa fa-glass"></i> Welcome drink</li>
+          <% end %>
+          <% if flat.welcome_drink %>
+            <li><i class="fa fa-paw" aria-hidden="true"></i> Pets allowed</li>
+          <% end %>
+        </ul>
+      </div>
+  </div>
+</div>
+
+
+
